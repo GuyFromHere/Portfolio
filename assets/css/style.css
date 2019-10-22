@@ -1,0 +1,25 @@
+.header {
+	clear: both;
+	width: 70%;
+	text-align: center;
+}
+
+.header span {
+	float: left;
+	padding: 10px;
+	font-size: 20pt;
+}
+
+.header li {
+	list-style: none;
+	float: left;
+	padding: 10px;
+}
+
+.blurb {
+	float: left;
+}
+
+#blurbPic {
+	float: left;
+}
