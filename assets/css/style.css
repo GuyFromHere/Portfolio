@@ -2,33 +2,63 @@ body {
 	background-image: url('../images/dynamic-style.png');
 }
 
-.header {
+* {
+	padding: 0;
+	margin: 0;
+  }
+  
+  header {
 	position: absolute;
-	/* left: 20%;
-	right: 20%; */
-	width: 100%;
-	height: 50px;
-	line-height: 50px;
-	border-bottom: 2px solid #cccccc;
-	background: #ffffff;
-}
-
-#nav {
-	position: relative;
-	width: auto;
-	text-align: center;
-}
-
-ul {
+	width: 60%;
+	right: 20%;
+	left: 20%;
+	clear: both;
+	overflow: auto;
+	border-bottom: 1px solid black;
+	
+  }
+  
+  header span {
+	float: left;
+	padding: 10px 0;
+	font-size: 24pt;
+	line-height: 50%;
+  }
+  
+  li {
 	float: right;
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	padding: 10px;
+  }
+  
+  main {
+	padding-top: 40px;
+  }
+  
+  .container {
+	position: absolute;
+	width: 60%;
+	right: 20%;
+	left: 20%;
+  }
+
+  .container h2 {
+	background: #4aaaa5;
+  }
+
+.container p {
+	color: #777777;
 }
 
-li {
-	display: inline;
+.blurb {
+	float: left;
 }
+
+#blurbPic {
+	float: left;
+}
+
+/* 
 
 #nameHeader {
 	background: #4aaaa5;
@@ -41,11 +71,7 @@ li {
 p {
 	color: #777777;
 }
-/* #nav li {
-	display: inline;
-	list-style: none;
-	padding: 10px;
-} */
+
 
 .blurb {
 	float: left;
@@ -67,9 +93,8 @@ p {
 #container {
 	position: relative;
 	width: 100%;
-	/* background: cadetblue; */
 }
 
 footer {
 	background: #666666;
-}
+} */
