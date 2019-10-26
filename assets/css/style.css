@@ -6,6 +6,9 @@
 }
 
 body {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
 	background-image: url('../images/dynamic-style.png');
 }
 
@@ -22,9 +25,7 @@ header {
 }
 
 .header {
-	display: inline-block;
-	position: relative;
-	left: 26%;
+	margin: 0 auto;
 	width: 960px;
 }
 
@@ -54,13 +55,13 @@ header {
 
 main {
 	padding-top: 20px;
-	height: 960px;
+	flex: 1 0 auto;
 }
 
 .container {
-	position: relative;
+	margin: 0 auto;
 	width: 920px;
-	left: 26%;
+	border: 1px solid #dddddd;
 	background: #ffffff;
 	padding: 20px;
 }
@@ -82,7 +83,15 @@ main {
 }
 
 footer {
-	position: sticky;
+	flex-shrink: 0;
 	border-top: 8px solid #4aaaa5;
 	background: #666666;
+	height: 40px;
+	text-align: center;
+}
+
+#copyright {
+	display: inline-block;
+	padding-top: 26px;
+	font-size: 10px;
 }
