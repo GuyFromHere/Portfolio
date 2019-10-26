@@ -52,6 +52,8 @@ header {
 }
 
 main {
+	padding: 0;
+	margin: 0;
 	padding-top: 20px;
 	height: 960px;
 }
