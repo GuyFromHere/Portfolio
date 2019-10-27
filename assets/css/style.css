@@ -149,27 +149,37 @@ main {
 
 #contact {
 	position: relative;
-	height: 345px;
+	height: 50%;
 }
 
 form {
 	padding-top: 20px;
 }
 
-#name {
+#name,
+#email,
+#message {
+	margin-top: 5px;
+	margin-bottom: 10px;
 	width: 100%;
 }
 
+#name,
 #email {
 	width: 100%;
+	padding: 5px;
 }
 
 #message {
-	width: 100%;
 	height: 230px;
 }
 
 #submit {
+	border: none;
+	background: #4aaaa5;
+	color: #ffffff;
+	padding: 5px 15px;
+	text-align: center;
 }
 
 /*        */
