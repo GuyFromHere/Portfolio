@@ -117,24 +117,28 @@ main {
 	background-image: url('../images/minesweeper.png');
 }
 
-#rpg {
+#fart {
 	left: 320px;
 	top: 0px;
+	background-image: url('../images/fart.png');
 }
 
-#trivia {
+#howold {
 	left: 0;
 	top: 200px;
+	background-image: url('../images/howold.png');
 }
 
-#info {
+#msud {
 	left: 320px;
 	top: 200px;
+	background-image: url('../images/msud.png');
 }
 
-#rps {
+#note {
 	left: 0;
 	top: 420px;
+	background-image: url('../images/note.png');
 }
 
 .portfolio h4 {
