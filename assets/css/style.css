@@ -135,6 +135,12 @@ main {
 	background-image: url('../images/msud.png');
 }
 
+#weather {
+	left: 320px;
+	top: 200px;
+	background-image: url('../images/weather.png');
+}
+
 #note {
 	left: 0;
 	top: 420px;
