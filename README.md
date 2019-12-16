@@ -8,6 +8,6 @@ A simple portfolio built with HTML and CSS.
 
 Just view the html files in a browser.
 
-## License
+## Link
 
-None.
+https://guyfromhere.github.io/Portfolio/
